@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.menu{ 
+    width: 100%;
+    background: black  ;
+    padding: 10px ;
+}
+.menu{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block; 
+    margin-left: 30px;
+    margin-right: 40px;
+
+}
+
+.menu ul li a{
+    font-family:Arial, Helvetica, sans-serif  ;
+    font-size: 14px;
+    color: white;
+    display: inline-block; 
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    
+}
+.menu a:hover{
+    
+    color: orange;
+    
+    }
+
