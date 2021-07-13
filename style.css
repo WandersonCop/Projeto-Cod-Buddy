@@ -4,16 +4,16 @@ body{
 }
 .menu{ 
     width: 100%;
-    background: black  ;
-    padding: 10px ;
+    background: rgb(139, 65, 65)  ;
+    padding: 30px ;
 }
 .menu{
     text-align: right;
 }
 .menu ul li{
     display: inline-block; 
-    margin-left: 30px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 80px;
 
 }
 
@@ -26,6 +26,7 @@ body{
     text-decoration: none;
     
     
+    
 }
 .menu a:hover{
     
@@ -33,3 +34,11 @@ body{
     
     }
 
+.menu img {
+    
+    width: 200px;
+    top:-50px;  
+    right: 1700px; 
+    position:absolute; 
+}
+    
