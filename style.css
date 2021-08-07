@@ -1,44 +1,49 @@
 body{
     margin:0;
     padding: 0;
+    
+
+}
+
+.logo{
+     
+    position: absolute;
+    width: 300px;
+    top: 5px;  
+    bottom: 0px;
+    left: 0px;
 }
 .menu{ 
     width: 100%;
-    background: rgb(139, 65, 65)  ;
-    padding: 30px ;
+    height: 330%;
+    background: rgb(82, 82, 163);
+    padding: 70px ;
 }
 .menu{
     text-align: right;
 }
 .menu ul li{
     display: inline-block; 
-    margin-left: 10px;
-    margin-right: 80px;
+    margin-left: 30px;
+    margin-right: 40px;
 
 }
 
 .menu ul li a{
     font-family:Arial, Helvetica, sans-serif  ;
-    font-size: 14px;
+    font-size: 20px;
     color: white;
     display: inline-block; 
     text-transform: uppercase;
     text-decoration: none;
-    
-    
+    margin-right: 50px;
+   
     
 }
 .menu a:hover{
     
     color: orange;
     
+    
     }
 
-.menu img {
-    
-    width: 200px;
-    top:-50px;  
-    right: 1700px; 
-    position:absolute; 
-}
-    
