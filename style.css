@@ -1,7 +1,7 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(194, 197, 192);
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(247, 248, 247);
   }
 
 
@@ -35,7 +35,7 @@ body{
   display: inline-block;
   padding: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- margin-top: 30px; /*para centralizar o texto na tarja*/
+  margin-top: 30px; /*para centralizar o texto na tarja*/
   
 }
 
@@ -57,55 +57,112 @@ body{
   }
  .amarelo{
  
-    top: 140px;
-    width: 500px;
-    height: 780px;
-    background-color: yellow;
-    position: absolute;
-}
-.vermelho{
   top: 140px;
-  width: 500px;
-  height: 390px;
-  margin-left: 500px;
-  position: absolute; 
-  background-color: rgb(255, 0, 0);
+  margin-left: 5px;
+  width: 480px;
+  height: 780px;
+  background-color: yellow;
+  position: absolute;
+ 
+
+    
+}
+.amarelo img{
+  width: 100%;
+  height: 100%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: black;
+  
+
 
 }
-.roxo{
-  top: 530px;
-  width: 500px;
+
+.vermelho{
+  top: 140px;
+  width: 480px;
   height: 390px;
-  margin-left: 500px;
+  margin-left: 505px;
+  position: absolute; 
+  background-color: rgb(255, 0, 0);
+  
+
+}
+.vermelho img{
+  width: 100%;
+  height: 100%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: black;
+ 
+}
+.roxo{
+  top: 550px;
+  width: 480px;
+  height: 370px;
+  margin-left: 505px;
   position: absolute; 
   background-color: rgb(53, 4, 63);
 
 }
+.roxo img{
+  width: 100%;
+  height: 100%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: black;
+
+}
+
 .verde{
-  top: 530px;
-  width: 500px;
-  height: 390px;
-  margin-left: 1000px;
+  top: 550px;
+  width: 480px;
+  height: 370px;
+  margin-left: 1005px;
   position: absolute; 
   background-color: rgb(4, 107, 38);
 
 }
 
+.verde img{
+  width: 100%;
+  height: 100%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: black;
+}
 .rosa{
   top: 140px;
-  width: 940px;
+  width: 905px;
   height: 390px;
-  margin-left: 1000px;
+  margin-left: 1005px;
   position: absolute; 
   background-color: rgb(233, 8, 222);
 
 }
+.rosa img{
+  width: 100%;
+  height: 100%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: black;
+
+}
+
 .azul{
-  top: 530px;
-  width: 440px;
-  height: 390px;
-  margin-left: 1500px;
+  top: 550px;
+  width: 405px;
+  height: 370px;
+  margin-left: 1505px;
   position: absolute; 
   background-color: rgb(53, 32, 236);
+
+}
+.azul img{
+  width: 100%;
+  height: 100%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: black;
 
 }
