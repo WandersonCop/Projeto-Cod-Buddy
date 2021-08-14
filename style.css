@@ -1,50 +1,111 @@
 body{
-    margin:0;
-    padding: 0;
-    
-    
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(194, 197, 192);
+  }
 
-}
 
 .logo{
-     
-    position: absolute;
-    width: 300px;
-    top: 5px;  
-    bottom: 0px;
-    left: 0px;
-}
-.menu{ 
-    width: 100%;
-    height: 330%;
-    background: rgb(82, 82, 163);
-    padding: 70px;
-    text-align: right;
+  margin: 30px;   
+  position: absolute;
+  width: 220px;
+  top: -15px;  
+  bottom: 0px;
+  left: 0px;
 }
 
+
+
+
+
+.menu{
+  width: 100%; /*faz a tarja ir ate o final da pagina*/
+  height: 120px;/*largura da tarja*/
+  background: rgb(206, 69, 27);
+  padding: 10px;20px 
+  margin-right: 50px; 
+  
+}
+
+.menu ul{
+  text-align: right
+  
+}
 .menu ul li{
-    display: inline-block; 
-    margin-left: 30px;
-    margin-right: 40px;
-
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-top: 30px; /*para centralizar o texto na tarja*/
+  
 }
 
 .menu ul li a{
-   
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-    color: white;
-    display: inline-block; 
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-right: 50px;
-   
-    
+  
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 50px;
+  
+
 }
 .menu a:hover{
     
-    color: orange;
-    
-    
-    }
+  color:black
+  
+  }
+ .amarelo{
+ 
+    top: 140px;
+    width: 500px;
+    height: 780px;
+    background-color: yellow;
+    position: absolute;
+}
+.vermelho{
+  top: 140px;
+  width: 500px;
+  height: 390px;
+  margin-left: 500px;
+  position: absolute; 
+  background-color: rgb(255, 0, 0);
 
+}
+.roxo{
+  top: 530px;
+  width: 500px;
+  height: 390px;
+  margin-left: 500px;
+  position: absolute; 
+  background-color: rgb(53, 4, 63);
+
+}
+.verde{
+  top: 530px;
+  width: 500px;
+  height: 390px;
+  margin-left: 1000px;
+  position: absolute; 
+  background-color: rgb(4, 107, 38);
+
+}
+
+.rosa{
+  top: 140px;
+  width: 940px;
+  height: 390px;
+  margin-left: 1000px;
+  position: absolute; 
+  background-color: rgb(233, 8, 222);
+
+}
+.azul{
+  top: 530px;
+  width: 440px;
+  height: 390px;
+  margin-left: 1500px;
+  position: absolute; 
+  background-color: rgb(53, 32, 236);
+
+}
