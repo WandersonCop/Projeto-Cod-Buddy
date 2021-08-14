@@ -2,6 +2,7 @@ body{
     margin:0;
     padding: 0;
     
+    
 
 }
 
@@ -17,11 +18,10 @@ body{
     width: 100%;
     height: 330%;
     background: rgb(82, 82, 163);
-    padding: 70px ;
-}
-.menu{
+    padding: 70px;
     text-align: right;
 }
+
 .menu ul li{
     display: inline-block; 
     margin-left: 30px;
@@ -30,7 +30,8 @@ body{
 }
 
 .menu ul li a{
-    font-family:Arial, Helvetica, sans-serif  ;
+   
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: white;
     display: inline-block; 
