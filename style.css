@@ -166,3 +166,32 @@ body{
   border-color: black;
 
 }
+
+form{
+  font-size: 16px;
+  background: rgb(206, 69, 27);
+  max-width: 730px;
+  margin-left: 1400px;
+  padding: 0 10px 10px 10px;
+  margin-top: -22px;
+  
+}
+h1{
+  color: rgb(235, 229, 229);
+}  
+input, textarea{
+  width: 470px;
+  padding: 15px;
+
+}
+.enviar input{ background: #069;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px;
+  color: white;
+  cursor: pointer;
+}
+ 
+

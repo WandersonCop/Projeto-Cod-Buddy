@@ -25,13 +25,28 @@
             </ul>
         </div>
 
-        <div>
-            <ul>
-                <li><a href="#">Instagram</a></li>  
-                <li><a href="#">e-mail</a></li> 
-                <li><a href="#">watsap</a></li> 
-            </ul>
-        </div>
+       <form name= "formulario" action=""method= post>
+           <h1>Poderia informar seus dados?</h1>
+            <p class="nome">
+                <input type="text" name="nome" placeholder="Qual o seu Nome?" required="required">
+            </p>
+
+            <p class="e-mail">
+                <input type="e-mail" name="e-mail" placeholder="E o seu e-mail?" required="required">
+            </p>
+
+            <p class="assunto">
+                <input type="assunto" name="assunto" placeholder="Qual seria o assunto?" required="required">
+            </p>
+
+            <p class="mensagen">
+               <textarea name="deixe sua mensagem" placeholder="Você poderia explicar um pouco mais?" cols="22" rows="10"></textarea>
+            </p>
+
+            <p class="enviar">
+                <input type="submit"name= "Enviar" value="Enviar">
+             </p>
+       </form>
         
         
     </header>
